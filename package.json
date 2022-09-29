@@ -1,0 +1,24 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "Shortening URL using Node JS, Express JS, MongoDb",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "keywords": [
+    "Creating",
+    "a",
+    "URL",
+    "shortener"
+  ],
+  "author": "Vidip Ghosh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.2",
+    "nodemon": "^2.0.20",
+    "shortid": "^2.2.16"
+  }
+}
