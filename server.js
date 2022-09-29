@@ -17,6 +17,7 @@ app.get('/',async (req,res)=>{
 
 app.post('/shortURL',async(req,res)=>{
     await ShortURL.create({full: req.body.fullUrl})   //req.body.fullUrl gives the access to the form 
+    res.redirect('/')
 })
 
 app.get('/:shortURL',async (req,res)=>{
